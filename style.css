@@ -179,3 +179,23 @@ i {
 .fa-js {
     color: #f3df50;
 }
+
+/* About */
+#about {
+    background-color: #2d2b3e;
+    padding: 20px;
+}
+  
+#about .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 50px;
+}
+  
+#about .main-col {
+    color: #fff;
+}
+  
+#about .sidebar {
+    margin-top: 10px;
+}
