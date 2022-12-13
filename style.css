@@ -121,6 +121,10 @@ a:hover {
     font-style: italic;
 }
 
+#italic {
+    font-style: italic;
+}
+
 /* Newsletter */
 #newsletter {
     background-color: #2d2b3e;
@@ -138,4 +142,40 @@ a:hover {
     padding: 4px;
     height: 25px;
     width: 250px;
+}
+
+/* Boxes */
+#boxes {
+    margin-top: 20px;
+  }
+  
+#boxes .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#boxes p {
+    text-align: center;
+}
+  
+.box {
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+  
+i {
+    font-size: 225px;
+}
+  
+.fa-html5 {
+    color: #d45632;
+}
+  
+.fa-css3-alt {
+    color: #2d50dc;
+}
+  
+.fa-js {
+    color: #f3df50;
 }
