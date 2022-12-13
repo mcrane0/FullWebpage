@@ -199,3 +199,26 @@ i {
 #about .sidebar {
     margin-top: 10px;
 }
+
+/* Services */
+#services .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 50px;
+}
+  
+#services li {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 5px;
+    background-color: #e6e6e6;
+}
+  
+#services .sidebar {
+    margin-top: 10px;
+}
+  
+#services input, #services textarea {
+    padding: 5px;
+    width: 90%;
+}
