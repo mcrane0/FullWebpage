@@ -107,7 +107,35 @@ a:hover {
     margin-bottom: 10px;
     font-size: 55px;
 }
+
+#showcase h3 {
+    font-size: 28px;
+}
   
 #showcase p {
     font-size: 20px;
+}
+
+#aside {
+    font-size: 0.75em;
+    font-style: italic;
+}
+
+/* Newsletter */
+#newsletter {
+    background-color: #2d2b3e;
+    padding: 15px;
+    color: #e6e6e6;
+}
+  
+#newsletter .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+#newsletter input {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
 }
