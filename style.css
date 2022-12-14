@@ -222,3 +222,12 @@ i {
     padding: 5px;
     width: 90%;
 }
+
+/* Footer */
+footer {
+    background-color: #2d2b3e;
+    color: #e6e6e6;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
